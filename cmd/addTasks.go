@@ -11,6 +11,7 @@ var addCmd = &cobra.Command{
 	Long:  "adds task to the end of tasks.json",
 	Run: func(cmd *cobra.Command, args []string) {
 		operations.AddTask(args[0])
+
 	},
 }
 
